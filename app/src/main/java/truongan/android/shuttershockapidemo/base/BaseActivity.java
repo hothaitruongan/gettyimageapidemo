@@ -18,13 +18,11 @@ import truongan.android.shuttershockapidemo.R;
  * Created by truongan91 on 5/17/16.
  */
 public abstract class BaseActivity extends AppCompatActivity {
-
     @Inject
     public Retrofit mRetrofit;
     @Nullable
     @Bind(R.id.toolbar)
     public Toolbar mToolbar;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
